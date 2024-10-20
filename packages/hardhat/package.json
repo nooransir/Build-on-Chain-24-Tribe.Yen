@@ -23,7 +23,7 @@
     "@nomicfoundation/hardhat-ethers": "^3.0.8",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
     "@nomicfoundation/hardhat-verify": "^2.0.10",
-    "@typechain/ethers-v5": "^11.1.2",
+    "@typechain/ethers-v5": "^6.0.5",
     "@typechain/hardhat": "^9.1.0",
     "@types/eslint": "^8",
     "@types/mocha": "^10.0.8",
@@ -39,9 +39,9 @@
     "hardhat": "^2.22.10",
     "hardhat-deploy": "^0.12.4",
     "hardhat-deploy-ethers": "^0.4.2",
-    "hardhat-gas-reporter": "^2.2.1",
+    "hardhat-gas-reporter": "^2.0.0",
     "prettier": "^2.8.4",
-    "solidity-coverage": "^0.8.13",
+    "solidity-coverage": "^0.7.22",
     "ts-node": "^10.9.1",
     "typechain": "^8.3.2",
     "typescript": "^5.1.6"
@@ -51,6 +51,8 @@
     "@typechain/ethers-v6": "^0.5.1",
     "dotenv": "^16.4.5",
     "envfile": "^7.1.0",
-    "qrcode": "^1.5.4"
+    "qrcode": "^1.5.4",
+    "vercel": "32.3.0",
+    "wagmi": "2.12.5"
   }
 }

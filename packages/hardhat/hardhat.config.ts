@@ -43,6 +43,12 @@ const config: HardhatUserConfig = {
   networks: {
     // View the networks that are pre-configured.
     // If the network you are looking for is not here you can add new network settings
+
+    //mumbai: {
+      //url: `https://polygon-mumbai.g.alchemy.com/v2/${process.env.aZfx6CzE-EpbQUaHyI3nR_xKlePap1S4}`,
+      //accounts: [process.env.PRIVATE_KEY as string],
+    //},
+    
     hardhat: {
       forking: {
         url: forkingURL,
