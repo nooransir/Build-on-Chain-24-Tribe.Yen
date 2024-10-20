@@ -27,10 +27,6 @@ const Home: NextPage = () => {
             <p className="my-2 font-medium">Connected Address:</p>
             <Address address={connectedAddress} />
           </div>
-
-          
-
-      
         </div>
 
         {/* Render the SocialFiFeed component */}
